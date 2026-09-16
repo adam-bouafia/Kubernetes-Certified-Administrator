@@ -11,6 +11,20 @@ Online resources that will help you prepare for taking the Kubernetes Certified 
 > - Exam objectives updated from the 2023 curriculum to [CKA_Curriculum_v1.35.pdf](https://github.com/cncf/curriculum/blob/master/CKA_Curriculum_v1.35.pdf)
 > - etcd, kubeadm upgrade and kubectl alias examples corrected against the current kubernetes.io documentation
 > - Dead and redirected links replaced
+> - Added a [troubleshooting method and scenario bank](TROUBLESHOOTING.md) for the 30% domain
+> - Added [common misconceptions](docs/MISCONCEPTIONS.md) that study material gets wrong
+> - Added [exam-day tactics](docs/EXAM-DAY-TACTICS.md) and a [study method](docs/STUDY-METHOD.md) with [note templates](templates/)
+> - Added the [Linux Foundation LF ACE path](docs/LF-ACE-PATH.md) mapped to the exam domains
+
+## What this fork adds
+
+Beyond updating the links to the current curriculum, this fork adds method: how to diagnose problems and how to study.
+
+- [TROUBLESHOOTING.md](TROUBLESHOOTING.md) - the first-moves reflex, a break-and-fix scenario bank, symptom table and practice questions for the 30% Troubleshooting domain
+- [Common misconceptions](docs/MISCONCEPTIONS.md) - things study material often gets wrong
+- [Exam-day tactics](docs/EXAM-DAY-TACTICS.md) - context switching, generating YAML, verifying, and using the simulator sessions well
+- [Study method](docs/STUDY-METHOD.md) - a learn, break, fix, log loop, with [note templates](templates/)
+- [Linux Foundation LF ACE path](docs/LF-ACE-PATH.md) - how LFS158, LFS253 and LFS258 map to the CKA domains
 
 **Disclaimer**: This is not likely a comprehensive list as the exam will be a moving target with the fast pace of k8s development - please make a pull request if there something wrong, should be added, or updated.
 
