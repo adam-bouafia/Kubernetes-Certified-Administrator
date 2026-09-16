@@ -5,6 +5,13 @@
 
 Online resources that will help you prepare for taking the Kubernetes Certified Administrator Certification exam.
 
+> **This is a fork.** The original is [walidshaari/Kubernetes-Certified-Administrator](https://github.com/walidshaari/Kubernetes-Certified-Administrator) by Walid Shaari, licensed [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). This copy is maintained by [adam-bouafia](https://github.com/adam-bouafia) and remains under the same licence.
+>
+> Changes made in this fork:
+> - Exam objectives updated from the 2023 curriculum to [CKA_Curriculum_v1.35.pdf](https://github.com/cncf/curriculum/blob/master/CKA_Curriculum_v1.35.pdf)
+> - etcd, kubeadm upgrade and kubectl alias examples corrected against the current kubernetes.io documentation
+> - Dead and redirected links replaced
+
 **Disclaimer**: This is not likely a comprehensive list as the exam will be a moving target with the fast pace of k8s development - please make a pull request if there something wrong, should be added, or updated.
 
 I tried to restrict the cross references of resources to [kubernetes.io](kubernetes.io). Youtube videos and other blog resources are optional; however, I still found them useful in my k8s learning journey.
